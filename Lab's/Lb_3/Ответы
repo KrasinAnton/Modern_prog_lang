@@ -4,3 +4,50 @@
 Функции сортировки, такие как сортировка пузырьком, быстрая сортировка и сортировка выбором, 
 как правило, применяются к одномерным массивам. Однако они могут быть адаптированы для работы с 
 многомерными массивами путем итерации по каждой размерности массива.
+Например:
+#include <iostream>
+
+// Функция сортировки пузырьком для двумерного массива
+void bubbleSort2D(int arr[][3], int rows, int cols) {
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols - 1; ++j) {
+            for (int k = 0; k < cols - j - 1; ++k) {
+                if (arr[i][k] > arr[i][k + 1]) {
+                    int temp = arr[i][k];
+                    arr[i][k] = arr[i][k + 1];
+                    arr[i][k + 1] = temp;
+                }
+            }
+        }
+    }
+}
+
+int main() {
+    int arr[][3] = {{3, 2, 1}, {6, 5, 4}, {9, 8, 7}};
+    int rows = sizeof(arr) / sizeof(arr[0]);
+    int cols = sizeof(arr[0]) / sizeof(arr[0][0]);
+
+    std::cout << "Before sorting:" << std::endl;
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols; ++j) {
+            std::cout << arr[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    bubbleSort2D(arr, rows, cols);
+
+    std::cout << "\nAfter sorting:" << std::endl;
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols; ++j) {
+            std::cout << arr[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
+
+Здесь bubbleSort2D принимает двумерный массив arr, количество строк rows и количество столбцов cols. 
+Он применяет сортировку пузырьком к каждой строке массива, что приводит к сортировке каждой строки 
+по отдельности.
