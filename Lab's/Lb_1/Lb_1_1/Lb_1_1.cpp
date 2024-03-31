@@ -1,7 +1,6 @@
-#include <iostream>  // Включаем заголовочный файл для стандартного ввода-вывода в С++
+#include <iostream>  
 
-#include <Windows.h> // Включаем заголовочный файл для работы с функциями Windows
-
+#include <Windows.h> 
 int power(int base, int exponent); // Объявляем прототип функции power()
 
 int main() {
