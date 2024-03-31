@@ -305,7 +305,5 @@ int main() {
     int startRow = 0, endRow = N / 2, startCol = 0, endCol = N / 2;
     std::cout << "Среднее арифметическое значение части матрицы: " << averagePart(m, startRow, endRow, startCol, endCol) << std::endl;
 
-    // Дополнительные проверки для остальных функций
-
     return 0;
 }
