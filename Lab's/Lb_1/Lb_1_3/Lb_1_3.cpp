@@ -1,6 +1,5 @@
 #include <iostream>  
 #include <Windows.h> 
-
 using namespace std; // Используем пространство имен std
 
 void obmen1(int a, int b) { // Функция для обмена значениями по значению

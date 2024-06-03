@@ -1,6 +1,5 @@
 #ifndef STROKA_H
 #define STROKA_H
-
 #include <iostream>
 
 class Stroka {

@@ -22,7 +22,6 @@ int main() {
         std::cout << arr[i] << " ";
     }
     std::cout << std::endl;
-
     bubbleSort(arr, n);
 
     std::cout << "После сортировки:" << std::endl;

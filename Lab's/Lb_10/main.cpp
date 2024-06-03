@@ -1,5 +1,4 @@
 #include "SingleLinkedList.h" // Подключение заголовочного файла SingleLinkedList.h
-
 using namespace std;
 
 // Конструктор класса SingleLinkedList

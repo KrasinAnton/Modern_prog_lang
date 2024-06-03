@@ -1,6 +1,5 @@
 #ifndef SINGLE_LINKED_LIST_H
 #define SINGLE_LINKED_LIST_H
-
 #include <iostream>
 #include <string>
 

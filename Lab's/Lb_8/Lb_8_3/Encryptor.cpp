@@ -43,5 +43,6 @@ char Encryptor::shiftChar(char c, int shift) {
         char base = islower(c) ? 'a' : 'A'; // Определяем базовый символ для сдвига
         return (c - base + shift + 26) % 26 + base; // Сдвигаем символ
     }
+    
     return c; // Возвращаем символ без изменений, если он не является буквой
 }

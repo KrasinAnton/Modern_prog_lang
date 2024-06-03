@@ -1,6 +1,5 @@
 #ifndef MONEY_H
 #define MONEY_H
-
 #include <iostream> // Подключаем заголовочный файл для работы с вводом-выводом
 
 // Объявление класса Money

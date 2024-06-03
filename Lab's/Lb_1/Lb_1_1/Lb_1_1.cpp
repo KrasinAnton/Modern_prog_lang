@@ -1,6 +1,6 @@
 #include <iostream>  
-
 #include <Windows.h> 
+
 int power(int base, int exponent); // Объявляем прототип функции power()
 
 int main() {

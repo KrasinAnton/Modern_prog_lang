@@ -69,6 +69,5 @@ int main() {
         circle.draw(window); // Рисуем круг
         window.display(); // Отображаем содержимое окна на экране
     }
-
     return 0; // Завершаем программу
 }

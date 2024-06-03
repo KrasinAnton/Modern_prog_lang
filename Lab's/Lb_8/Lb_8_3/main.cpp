@@ -28,6 +28,5 @@ int main(int argc, char* argv[]) {
         std::cerr << "Unknown mode: " << mode << std::endl; // Выводим сообщение об ошибке
         return 1; // Завершаем программу с кодом ошибки
     }
-
     return 0; // Завершаем программу успешно
 }

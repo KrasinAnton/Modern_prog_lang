@@ -34,6 +34,5 @@ int main() {
     // Использование манипулятора setw для установки ширины вывода
     std::cout << "\nWidth setting using setw manipulator:" << std::endl;
     std::cout << std::setw(10) << 255 << std::setw(10) << 3.14159 << std::endl; // Устанавливаем ширину поля вывода для чисел
-
     return 0; // Завершаем программу
 }

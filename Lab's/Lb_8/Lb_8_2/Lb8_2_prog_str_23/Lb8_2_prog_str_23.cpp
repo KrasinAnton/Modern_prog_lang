@@ -30,6 +30,5 @@ int main(void)
     // Выводим максимальное значение из массива
     cout << "max int = ";
     cout << getmax(mas, sizeof(mas) / sizeof(mas[0])) << endl; // Исправление: передаем массив и его размер
-
     return 0; // Завершаем программу
 }

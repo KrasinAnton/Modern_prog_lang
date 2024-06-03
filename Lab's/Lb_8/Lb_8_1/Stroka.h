@@ -1,6 +1,5 @@
 #ifndef STROKA_H
 #define STROKA_H
-
 #include <iostream> // Подключаем заголовочный файл для работы с вводом-выводом
 
 class Stroka {

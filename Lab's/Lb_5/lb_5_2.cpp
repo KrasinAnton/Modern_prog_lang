@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <ctype.h> // Для функции isprint()
 
 int main(void) {

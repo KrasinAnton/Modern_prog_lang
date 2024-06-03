@@ -37,6 +37,5 @@ int main(void)
     // Выводим отсортированный массив на экран
     for (int i = 0; i < sizeof(mas) / sizeof(mas[0]); i++)
         cout << "mas[" << i << "] =" << mas[i] << endl;
-
     return 0; // Завершаем программу
 }

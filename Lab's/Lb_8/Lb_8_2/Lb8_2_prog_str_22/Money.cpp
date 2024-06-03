@@ -13,7 +13,7 @@ int Money::operator>(const Money& amt) const
            ((dollars == amt.dollars) && (cents > amt.cents));
 }
 
-// Дружественный оператор вывода
+//оператор вывода
 std::ostream& operator<<(std::ostream& os, Money& amt)
 {
     os << "$" << amt.dollars << '.' << amt.cents;

@@ -33,6 +33,5 @@ int main() {
         cout << "да";
     else
         cout << "нет";
-
     return 0;
 }

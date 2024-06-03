@@ -47,6 +47,5 @@ int main() {
         stringConcatenate(concatenatedString, strings[i]);
     }
     cout << "Результат конкатенации: " << concatenatedString << endl;
-
     return 0;
 }

@@ -36,6 +36,5 @@ int main() {
     for (i = 0; i < n; i++)
         std::cout << mas[i] << ' ';
     std::cout << std::endl;
-
     return 0;
 }

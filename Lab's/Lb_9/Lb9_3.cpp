@@ -91,6 +91,5 @@ int main() {
 
     // Сортируем железнодорожный состав и выводим результат
     sortRailway(inputStack);
-
     return 0;
 }

@@ -1,6 +1,5 @@
 #ifndef ENCRYPTOR_H
 #define ENCRYPTOR_H
-
 #include <string>
 
 // Класс Encryptor для шифрования и дешифрования текста

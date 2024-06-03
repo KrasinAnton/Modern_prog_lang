@@ -67,6 +67,5 @@ int main() {
     free(str1);
     free(str2);
     free(str3);
-
     return 0;
 }

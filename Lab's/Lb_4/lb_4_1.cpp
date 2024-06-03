@@ -40,6 +40,5 @@ int main() {
     // Вызов функции конкатенации строк
     stringConcatenate(str1, str2);
     cout << "Результат сцепления: str1 = " << str1 << endl;
-
     return 0;
 }

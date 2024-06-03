@@ -1,7 +1,4 @@
-﻿// Lab9Task2Prog9.1.3.cpp : 2. Выполнить примеры из п.п. 9.1.2 и 9.1.3.
-// Программа из пункта 9.1.3
-
-#include <iostream>
+﻿#include <iostream>
 #include <cstring>
 using namespace std;
 
